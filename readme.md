@@ -17,6 +17,7 @@ Pandas default IO vs PDPG.
 | Method | Performance Bump |
 | Pull | 20% -30% |
 | Push | 40x - 60x |
+
 \* We have used a 1 million row dataset with 15 columns of various data types, including date and datetime.
 
-For more information, please visit speed_test.ipynb .
+For more information, please visit [speed_test.ipynb](speed_test.ipynb).
