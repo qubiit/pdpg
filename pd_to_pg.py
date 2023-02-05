@@ -38,4 +38,4 @@ def pd_to_pg(df: DataFrame, tablename: str) -> None:
                     null = ''
                 )
             except pg.Error as err:
-                return err
+                raise err

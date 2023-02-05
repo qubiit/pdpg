@@ -21,4 +21,4 @@ def pg_to_pd(sql: str) -> DataFrame:
                 df = pd.DataFrame(curr.fetchall(), columns=cols)
                 return df
             except pg.Error as err:
-                return err
+                raise err
