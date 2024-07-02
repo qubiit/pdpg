@@ -7,7 +7,7 @@ Data engineers and data scientists heavily rely on pandas. Loading tons of data 
 ### Traditional approach:
 `Postgresql <> psycopg <> ORM <> Pandas`
 
-In this example, we tried to dicth ORM and directly contact psycopg as it is the go-to driver for Python.
+In this example, we tried to dicth ORM and directly contact to psycopg as it is the go-to driver for Python.
 
 
 ### Benchmark
