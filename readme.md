@@ -9,6 +9,7 @@ Data engineers and data scientists heavily rely on pandas. Loading tons of data 
 
 In this example, we tried to dicth ORM and directly contact to psycopg as it is the go-to driver for Python.
 
+`Postgresql <> psycopg  <> Pandas`
 
 ### Benchmark
 Pandas default IO vs PDPG.
@@ -19,5 +20,7 @@ Pandas default IO vs PDPG.
 | Push | 40x - 60x |
 
 \* We have used a 1 million row dataset with 15 columns of various data types, including date and datetime.
+
+\** Pandas default IO is based on SQLAlchemy ORM for SQL workload.
 
 For more information, please visit [speed_test.ipynb](speed_test.ipynb).
