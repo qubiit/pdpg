@@ -1,4 +1,4 @@
-import pandas as pg
+import pandas as pd
 from pandas.core.frame import DataFrame
 import psycopg2 as pg
 from io import StringIO
