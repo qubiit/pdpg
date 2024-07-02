@@ -2,7 +2,7 @@
 A faster pipeline between Pandas and Postgresql via psycopg.
 
 ### Why?
-Data engineers and data scientists heavily rely on pandas. Loading tons of data to and from a database, i.e., PostgreSQL, is a heavy and time-consuming task.
+Data engineers and data scientists heavily rely on pandas. Loading tons of data to and from a database like PostgreSQL is a heavy and time-consuming task.
 
 ### Traditional approach:
 `Postgresql <> psycopg <> ORM <> Pandas`
